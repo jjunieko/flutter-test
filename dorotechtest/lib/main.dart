@@ -1,9 +1,13 @@
+import 'dart:io';
+
 import 'package:dorotechtest/pages/personagem_list_page.dart';
 import 'package:dorotechtest/view%20models/personagem_list_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-void main() => runApp(App());
+void main() {
+  runApp(App());
+}
 
 class App extends StatelessWidget {
   @override

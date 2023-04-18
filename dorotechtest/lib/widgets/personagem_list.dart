@@ -12,8 +12,7 @@ class PersonagemList extends StatelessWidget {
       itemCount: this.personagem.length,
       itemBuilder: (context, index) {
         final persona = this.personagem[index];
-        // loadingWidget();
-
+        // loadingWidget();l
         return InkWell(
           onTap: (() {
             Navigator.push(
